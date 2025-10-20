@@ -42,12 +42,12 @@ print("----------------------")
 print("       RESULTS        ")
 print("----------------------")
 
-print("quiz results: ", end="")
+print("quiz answers: ", end="")
 for answer in ans:
     print(answer, end=" ")
 print()
 
-print("your results: ", end="")
+print("your answers: ", end="")
 for guess in guesses:
     print(guess, end=" ")
 print()
