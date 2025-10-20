@@ -42,5 +42,15 @@ print("----------------------")
 print("       RESULTS        ")
 print("----------------------")
 
+print("quiz results: ", end="")
+for answer in ans:
+    print(answer, end=" ")
+print()
+
+print("your results: ", end="")
+for guess in guesses:
+    print(guess, end=" ")
+print()
+
 score = int(score / len(ques) * 100)
 print(f"Your score is: {score}%")
